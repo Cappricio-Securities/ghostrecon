@@ -87,6 +87,8 @@ URL=====> http://localhost:8090
 - [Naabu](https://github.com/projectdiscovery/naabu)
 - [Httpx](https://github.com/projectdiscovery/httpx)
 
+## Demo video
+https://youtu.be/IeBc_ChMHqM
 
 ## 🔗 Links
 
