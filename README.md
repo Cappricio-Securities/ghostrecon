@@ -20,6 +20,7 @@ Install ghostrecon
   pip install requests
   nano ~/includes/bin/github-subs.sh #replace with your github token
   mkdir ~/recon/ghostrecon/
+  npm install subsleuth -g
 ```
 
 ## Usage
@@ -82,6 +83,7 @@ URL=====> http://localhost:8090
 ### Required tools ⚒️ :
 
 - [Amass](https://github.com/OWASP/Amass)
+- [subsleuth](https://www.npmjs.com/package/subsleuth)
 - [Subfinder](https://github.com/projectdiscovery/subfinder)
 - [Github Search](https://github.com/gwen001/github-search)
 - [Naabu](https://github.com/projectdiscovery/naabu)
