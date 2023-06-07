@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200&family=Megrim&family=Quicksand:wght@300&display=swap');
+
+input {
+    border-radius: 15px;
+    margin: 0.4%;
+    height: 50px;
+    background: black;
+    color: white;
+    width: 90%;
+    border: 2ch;
+    max-width: 90%;
+    
+}
+#survey_options{
+    
+    align-items: center;
+    width: 400px;
+    margin: 0%;
+    padding: 0%;
+    border: 0ch;
+    background: transparent;
+  
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-family: 'Biryani', sans-serif;
+    text-align: center;
+    opacity: 1;
+    /* Firefox */
+}
+.controls{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    left: -7%;
+    align-items: center;
+    
+    justify-content: center;
+}
+.bts{
+    position: absolute;
+    top: 10%;
+    left: 88%;
+    width: 120px;
+    height: 120px;
+    color: white;
+    background: black;
+    box-shadow: -5px 4px 27px rgba(0, 0, 0, 0.8);
+}
+.create{
+    overflow: scroll;
+    display: grid;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+
+ 
+}
+
+.imgs{
+    position: relative;
+    left: -17%;
+    top: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px 4px 27px rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,58 @@
+{
+  "name": "gh0str3con",
+  "version": "1.0.0",
+  "description": "All in one cloud based web Recon tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthi-the-hacker/Gh0stR3c0n.git"
+  },
+  "bin": {
+    "ghostrecon": "./index.js",
+    "gh0str3con": "./index.js"
+  },
+  "keywords": [
+    "ghostrecon",
+    "bugbounty",
+    "bugbounty recon",
+    "ethicalhacking",
+    "cybersecurity",
+    "cybersecurity tool",
+    "tool",
+    "security audit",
+    "karthithehacker"
+  ],
+  "files": [
+    "index.js",
+    "views",
+    "database",
+    "Assets",
+    "includes"
+  ],
+  "readme": "README.md",
+  "author": {
+    "name": "karthikeyan V (karthithehacker)",
+    "email": "contact@karthithehacker.com",
+    "url": "https://karthithehacker.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karthi-the-hacker/Gh0stR3c0n/issues"
+  },
+  "homepage": "https://github.com/karthi-the-hacker/Gh0stR3c0n#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "lowdb": "^1.0.0",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^2.0.22",
+    "puppeteer": "^20.5.0",
+    "yargs": "^17.7.2"
+  }
+}

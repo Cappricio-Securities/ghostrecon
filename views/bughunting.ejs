@@ -1,0 +1,184 @@
+<%- include('components/header'); %>
+    <% if (sucess>1) { %>
+        <div class="flash">
+            <div class="flash__icon">
+                <i class="icon fa fa-check-circle-o"></i>
+            </div>
+            <p class="flash__body">
+                Success!
+            </p>
+        </div>
+        <div id="app">
+            <div class="app-container flex-container">
+                <div id="app-nav">
+                    <div class="flex-center"><img id="logo" src="/images/logo.png"></div>
+                    <div>
+                        <a href="/">
+                            <div class="nav-item flex-center "><i class="fa fa fa-home"></i></div>
+                        </a>
+                        <a href="#">
+                            <div class="nav-item flex-center active"><i class="fa fa-bug"></i></div>
+                        </a>
+                        <a href="/#">
+                            <div class="nav-item flex-center "><i class="fas fa-coins"></i></div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="flex-column" id="app-dashboard">
+                    <div class="flex-row flex-apart" id="dashboard-header">
+                        <div>
+                            <h1 class="htext">Welcome back 🃏
+                            </h1>
+
+                        </div>
+
+                    </div>
+                    <div class="create">
+                        <center>
+                            <img class="imgs" src="/images/logob.png"
+                                style="height: 150px; width: 150px; border-radius: 30px; align-items: center;">
+                        </center>
+                        <form action="/newrecon" method="post">
+                            <div id="survey_options">
+                                <input type="text" name="name" placeholder="Target Name">
+                                <input type="text" name="reportpath" placeholder="Email/Url">
+                                <input type="text" name="subs[]" class="survey_options" placeholder="Domain/Subs">
+
+                            </div>
+                            <input class="bts" id="bts" type="submit" value="Submit">
+                        </form>
+
+
+                        <div class="controls">
+                            <button class="button" id="add_more_fields">
+                                <div class="icon">
+                                    <div class="cannon"></div>
+                                    <div class="confetti">
+                                        <svg viewBox="0 0 18 16">
+                                            <polyline points="1 10 4 7 4 5 6 1" />
+                                            <path d="M4,13 C5.33333333,9 7,7 9,7 C11,7 12.3340042,6 13.0020125,4" />
+                                            <path
+                                                d="M6,15 C7.83362334,13.6666667 9.83362334,12.6666667 12,12 C14.1663767,11.3333333 15.8330433,9.66666667 17,7" />
+                                        </svg>
+                                        <i></i><i></i><i></i><i></i><i></i><i></i>
+                                        <div class="emitter"></div>
+                                    </div>
+                                </div>
+                                <span><i class="fa fa-plus"></i></span>
+                            </button>
+                            <button class="button" id="remove_fields">
+                                <div class="icon">
+                                    <div class="cannon"></div>
+                                    <div class="confetti">
+                                        <svg viewBox="0 0 18 16">
+                                            <polyline points="1 10 4 7 4 5 6 1" />
+                                            <path d="M4,13 C5.33333333,9 7,7 9,7 C11,7 12.3340042,6 13.0020125,4" />
+                                            <path
+                                                d="M6,15 C7.83362334,13.6666667 9.83362334,12.6666667 12,12 C14.1663767,11.3333333 15.8330433,9.66666667 17,7" />
+                                        </svg>
+                                        <i></i><i></i><i></i><i></i><i></i><i></i>
+                                        <div class="emitter"></div>
+                                    </div>
+                                </div>
+                                <span><i class="fa fa-minus"></i></span>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%} else { %>
+            <div id="app">
+                <div class="app-container flex-container">
+                    <div id="app-nav">
+                        <div class="flex-center"><img id="logo" src="/images/logo.png"></div>
+                        <div>
+                            <a href="/">
+                                <div class="nav-item flex-center "><i class="fa fa fa-home"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="nav-item flex-center active"><i class="fa fa-bug"></i></div>
+                            </a>
+                            <a href="#">
+                                <div class="nav-item flex-center "><i class="fas fa-coins"></i></div>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="flex-column" id="app-dashboard">
+                        <div class="flex-row flex-apart" id="dashboard-header">
+                            <div>
+                                <h1 class="htext">Welcome back 🃏
+                                </h1>
+
+                            </div>
+
+                        </div>
+                        <div class="create">
+                            <center>
+                                <img class="imgs" src="/images/logob.png"
+                                    style="height: 150px; width: 150px; border-radius: 30px; align-items: center;">
+                            </center>
+                            <form action="/newrecon" method="post">
+                                <div id="survey_options">
+                                    <input type="text" name="name" placeholder="Target Name">
+                                    <input type="text" name="reportpath" placeholder="Email/Url">
+                                    <input type="text" name="subs[]" class="survey_options" placeholder="Domain/Subs">
+
+                                </div>
+                                <input class="bts" id="bts" type="submit" value="Submit">
+                            </form>
+
+
+                            <div class="controls">
+                                <button class="button" id="add_more_fields">
+                                    <div class="icon">
+                                        <div class="cannon"></div>
+                                        <div class="confetti">
+                                            <svg viewBox="0 0 18 16">
+                                                <polyline points="1 10 4 7 4 5 6 1" />
+                                                <path d="M4,13 C5.33333333,9 7,7 9,7 C11,7 12.3340042,6 13.0020125,4" />
+                                                <path
+                                                    d="M6,15 C7.83362334,13.6666667 9.83362334,12.6666667 12,12 C14.1663767,11.3333333 15.8330433,9.66666667 17,7" />
+                                            </svg>
+                                            <i></i><i></i><i></i><i></i><i></i><i></i>
+                                            <div class="emitter"></div>
+                                        </div>
+                                    </div>
+                                    <span><i class="fa fa-plus"></i></span>
+                                </button>
+                                <button class="button" id="remove_fields">
+                                    <div class="icon">
+                                        <div class="cannon"></div>
+                                        <div class="confetti">
+                                            <svg viewBox="0 0 18 16">
+                                                <polyline points="1 10 4 7 4 5 6 1" />
+                                                <path d="M4,13 C5.33333333,9 7,7 9,7 C11,7 12.3340042,6 13.0020125,4" />
+                                                <path
+                                                    d="M6,15 C7.83362334,13.6666667 9.83362334,12.6666667 12,12 C14.1663767,11.3333333 15.8330433,9.66666667 17,7" />
+                                            </svg>
+                                            <i></i><i></i><i></i><i></i><i></i><i></i>
+                                            <div class="emitter"></div>
+                                        </div>
+                                    </div>
+                                    <span><i class="fa fa-minus"></i></span>
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+
+
+
+
+
+                <!-- partial -->
+
+                <%- include('components/footer'); %>

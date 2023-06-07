@@ -1,0 +1,91 @@
+<%- include('components/header'); %>
+<div id="app">
+    <div class="app-container flex-container">
+        <div id="app-nav">
+            <div class="flex-center"><img id="logo" src="/images/logo.png"></div>
+            <div>
+                <a href="/">
+                    <div class="nav-item flex-center active"><i class="fa fa fa-home"></i></div>
+                </a>
+                <a href="/new">
+                    <div class="nav-item flex-center "><i class="fa fa-bug"></i></div>
+                </a>
+                <a href="/#">
+                    <div class="nav-item flex-center "><i class="fas fa-coins"></i></div>
+                </a>
+
+            </div>
+        </div>
+        <div class="flex-column" id="app-dashboard">
+            <div class="flex-row flex-apart" id="dashboard-header">
+                <div>
+                    <h1 class="htext">Welcome back 🃏
+                    </h1>
+                    
+                </div>
+                
+            </div>
+            <div class="flex-apart flex-column" id="dashboard-charts">
+                <section>
+                    <div class="tbl-header">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <thead>
+                                <tr>
+                                    <th>Target Name</th>
+                                    <th>Started Date</th>
+                                    
+                                    <th>More info</th>
+                                    
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tbl-content">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                                <% cred.forEach((item)=> {
+                                    let targetname = (item.targetname);
+                                    let createdat = (item.createdat);
+                                    let scopeStatus = item.recOn;
+                                   
+                                    %>
+                                <tr>
+                                    <td><%= targetname %></td>
+                                    <td id=rep><%= createdat %></td>
+                                 
+                                    <td>
+                                        <% if (scopeStatus==="pending" ) { %>
+                                            <a class="lk" onclick='alert("Recon not completed");' href="/#pending">
+                                               
+                                                    <h1 class="rectes"><%= scopeStatus %></h1>
+                                      
+                                            </a>
+                                            <% } else { %>
+                                                <a class="lk" href="/<%= targetname %>">
+                                          
+                                                        <h1 class="rectes">Recon info</h1>
+                                               
+                                                </a>
+                                                <% } %>
+                                        </a>
+</td>
+                                </tr>
+<% }) %>
+
+                               
+
+
+                                <client></client>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- partial -->
+<%- include('components/footer'); %>
