@@ -18,11 +18,13 @@ Install ghostrecon
   cd ghostrecon
   npm install 
   pip install requests
+  nano ~/includes/bin/github-subs.sh #replace with your github token
+  mkdir ~/recon/ghostrecon/
 ```
 
 ## Usage
 
-Example for single url
+Start ghostrecon
 
 ```bash
   ./index.js
@@ -33,7 +35,7 @@ Example for single url
 Check output in 
 
 ```bash
-  ls ~/camjacking/
+  ls ~/recon/ghostrecon/
 ```
 
 ## Screenshots
@@ -48,27 +50,43 @@ Check output in
 ```bash
 
 
-👋 Hey karthithehacker
+👋 Hey karthithehacker 
 
- .-----------------------------.
- |  Tool   : CamJacking 📸     |
- |  Author : @karthithehacker🎖️|
- |        Selfi Time           |           
+ .-----------------------------.           
+ |  Tool   : Gh0str3con        |           
+ |  Author : @karthithehacker🎖️ |           
+ |        1'or'1='1            |           
  '-----------------------------'           
                  ^      (\_/)    
                  '----- (O.o)    
-                        (> <)
-
-$ CamJacking [option]
-Usage: CamJacking [options]
+                        (> <)    
+URL=====> http://localhost:8090
 
 ```
+## Features ⚙️ :
 
-| Argument | Type        | Description                                             |
-| :------- | :---------- | :------------------------------------------------------ |
-| `-h`     | `--help`    | Show help                                               |
-| `-V`     | `--version` | Show version number                                     |
-| `-p`     | `--port`    | Provide availabe port between 0 to 65536. |
+ - SubDomain Recon.
+ - Finding IP's from Domains and Subdomains.
+ - Finding Live with unique open ports.
+ - Finding open ports. 
+
+### Alert ⚠️ : 
+ - Dont forgot to add your github token 
+
+### Requirements 🪛 :
+
+- [Go](https://go.dev/)
+- [Nodejs](https://nodejs.org/en)
+- [Python](https://www.python.org/) 🐍
+
+### Required tools ⚒️ :
+
+- [Amass](https://github.com/OWASP/Amass)
+- [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [Github Search](https://github.com/gwen001/github-search)
+- [Naabu](https://github.com/projectdiscovery/naabu)
+- [Httpx](https://github.com/projectdiscovery/httpx)
+
 
 ## 🔗 Links
 
