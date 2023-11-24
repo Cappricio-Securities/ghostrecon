@@ -16,14 +16,14 @@ savepath = CONST.savepath
 
 function wrecking(targetname,savepath) // This function is used to update and remove unwanted attacks
 {
-    exec("python includes/bin/wrecking.py "+targetname +" "+savepath+ " &", (error, stdout, stderr) => {
+    exec("python3 includes/bin/wrecking.py "+targetname +" "+savepath+ " &", (error, stdout, stderr) => {
 });
 }
 
 
 function makedir(targetname) // This function is used to update and remove unwanted attacks
 {
-    exec("python includes/bin/initialization.py "+targetname+ " "+savepath, (error, stdout, stderr) => {
+    exec("python3 includes/bin/initialization.py "+targetname+ " "+savepath, (error, stdout, stderr) => {
 });
 }
 

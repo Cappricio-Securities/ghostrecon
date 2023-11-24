@@ -2,12 +2,13 @@
 
 import os
 
-def subdomainenumuration(target_name, savepath):
+def subdomainenumuration(target_name, savepath,subs_conf):
     os.system('sh includes/bin/github-subs.sh ' + savepath+target_name +'/scope.txt >> ' + savepath+target_name + '/github.txt')
     os.system('subfinder -dL ' + savepath+target_name +'/scope.txt -o ' + savepath+target_name + '/subfinder.txt ')
     os.system('sh includes/bin/crt.sh ' + savepath+target_name + '/scope.txt >> ' + savepath+target_name +'/crtsh.txt')
-    os.system('amass enum -passive -df ' + savepath+target_name +'/scope.txt -o ' + savepath+target_name + '/amass.txt')
-    os.system('subsleuth -l ' + savepath+target_name +'/scope.txt -w includes/bin/wordlist.txt -o ' + savepath+target_name + '/subsleuth.txt')
+    if subs_conf == False:
+        os.system('amass enum -passive -df ' + savepath+target_name +'/scope.txt -o ' + savepath+target_name + '/amass.txt')
+        os.system('subsleuth -l ' + savepath+target_name +'/scope.txt -w includes/bin/wordlist.txt -o ' + savepath+target_name + '/subsleuth.txt')
 
 def sort(target_name, savepath):
     os.system('cat ' + savepath+target_name +'/*.txt | sort -u | tee -a ' + savepath+target_name + '/all.txt')

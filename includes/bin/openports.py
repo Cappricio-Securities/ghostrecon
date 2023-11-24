@@ -2,7 +2,6 @@ import os
 
 
 def portscan(target_name, savepath):
-    print("naabu")
     os.system('naabu -list '+ savepath+target_name +'/alls.txt -o '+ savepath+target_name +'/nabu.txt')
 
 
