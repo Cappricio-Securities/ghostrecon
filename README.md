@@ -52,6 +52,7 @@
 2. Setting up `Ghostrecon`
 
     - Running Setup scripts
+      -  `mkdir ~/recon`
       -  `chmod +x index.js`
       -  `chmod +x setup.sh`
       -  `./setup.sh` if the setup shows any error install the requirements manually 
@@ -63,18 +64,20 @@
      
    - Github Recon
      - `github_token: your_github_token` Replace with your Github Token
-     - Save and Exit
+     
 
    - Deep Recon
      - `Subs_Scan_Fast: True` True disable the Subdomain Brute-forcing & Amass 
      - `Subs_of_Subs: True` True disable the Subdomains of Subdomain discovery
      - By default, changes are saved as 'True' according to your preference.
+     - Save and Exit
 
-5. Example for multiple domains or to find subdomains of subdomains
-   - input
-     - `subsleuth -l domain-list.txt -w wordlist.txt`
-   - output
-     - `subsleuth -l domain-list.txt -w wordlist.txt -o output.txt`
+5. Starting Ghostrecon
+   - Run Command
+     - `./index.js` To start Ghost Recon run this command
+   - Start Recon 
+     - `open http://localhost:8090` Open this url in your browser
+     - `open http://localhost:8090/new` Start new recon
 
 #### Usages 📚 :
 
