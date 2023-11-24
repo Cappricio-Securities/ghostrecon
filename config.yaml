@@ -1,5 +1,5 @@
 config:
   github_token: your_github_token
-  chat_ID: 1151520582
+  chat_ID: your_Telegram_chat_ID
   Subs_Scan_Fast: True #It will disable Amass and subsleuth to make work faster set to False to do subdomain bruteforce
   Subs_of_Subs: True #It will disabe subdomains of subdomain recon

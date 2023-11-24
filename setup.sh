@@ -41,3 +41,6 @@ check_command "pip3" && pip3 install requests
 check_command "subsleuth" || sudo npm install subsleuth -g
 
 echo "All dependencies are installed."
+
+sudo npm i
+

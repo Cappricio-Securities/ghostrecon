@@ -26,7 +26,7 @@ path = sys.argv[2]
 
 Started(target_name, ChatId)
 
-subdomainenumuration(target_name, path, subs_conf)
+subdomainenumuration(target_name, path, subs_conf, github_token)
 sort(target_name, path)
 if subsof == False:
     subsofsubs(target_name, path)

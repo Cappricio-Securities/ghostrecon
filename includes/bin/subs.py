@@ -2,8 +2,8 @@
 
 import os
 
-def subdomainenumuration(target_name, savepath,subs_conf):
-    os.system('sh includes/bin/github-subs.sh ' + savepath+target_name +'/scope.txt >> ' + savepath+target_name + '/github.txt')
+def subdomainenumuration(target_name, savepath,subs_conf,token):
+    os.system('sh includes/bin/github-subs.sh ' + savepath+target_name +'/scope.txt >> ' + savepath+target_name + '/github.txt '+token)
     os.system('subfinder -dL ' + savepath+target_name +'/scope.txt -o ' + savepath+target_name + '/subfinder.txt ')
     os.system('sh includes/bin/crt.sh ' + savepath+target_name + '/scope.txt >> ' + savepath+target_name +'/crtsh.txt')
     if subs_conf == False:
