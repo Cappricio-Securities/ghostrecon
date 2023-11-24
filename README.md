@@ -44,20 +44,25 @@
 
 1. Install NodeJS [Instructions Here](https://nodejs.org/en/download/package-manager/) (If you can't figure this out, you shouldn't really be using this)
 
-   - Linux, Mac
-     - `npm install subsleuth -g`
    - Github
-     - click [HERE](https://github.com/karthi-the-hacker/subsleuth.git) for downloads
+     - click [HERE](https://github.com/karthi-the-hacker/ghostrecon.git) for downloads
+   - Change Directory
+     - `cd ghostrecon`
 
-2. Open terminal now type `subsleuth`
+2. Setting up `Ghostrecon`
 
-3. Example for signle domain
-   - input
-     - `subsleuth -d google.com -w wordlist.txt`
+    - Running Setup scripts
+      -  `chmod +x index.js`
+      -  `chmod +x setup.sh`
+      -  `./setup.sh` if the setup shows any error install the requirements manually 
+
+4. Configurations 
+   - Telegram Notification
+     - `nano `
    - output
      - `subsleuth -d google.com -w wordlist.txt -o output.txt`
 
-4. Example for multiple domains or to find subdomains of subdomains
+5. Example for multiple domains or to find subdomains of subdomains
    - input
      - `subsleuth -l domain-list.txt -w wordlist.txt`
    - output
