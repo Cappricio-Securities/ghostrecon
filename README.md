@@ -58,9 +58,17 @@
 
 4. Configurations 
    - Telegram Notification
-     - `nano `
-   - output
-     - `subsleuth -d google.com -w wordlist.txt -o output.txt`
+     - `nano config.yaml`
+     - `chat_ID: your_ChatID` Replace with your telegram chat id
+     
+   - Github Recon
+     - `github_token: your_github_token` Replace with your Github Token
+     - Save and Exit
+
+   - Deep Recon
+     - `Subs_Scan_Fast: True` True disable the Subdomain Brute-forcing & Amass 
+     - `Subs_of_Subs: True` True disable the Subdomains of Subdomain discovery
+     - By default, changes are saved as 'True' according to your preference.
 
 5. Example for multiple domains or to find subdomains of subdomains
    - input
