@@ -80,16 +80,27 @@
      - `open http://localhost:8090` Open this url in your browser
      - `open http://localhost:8090/new` Start new recon
 
-#### Usages 📚 :
+## Features ⚙️ :
 
-    $ subsleuth [option]
+ - SubDomain Recon.
+ - SubDomains of SubDomain Recon.
+ - Finding Live with unique open ports.
+ - Finding open ports. 
 
-      Usage: subsleuth [options]
+### Required tools ⚒️ :
 
-      Options:
-        -h, --help     Show help
-        -V, --version  Show version number
-        -w, --wordlist  Customize wordlists
-        -d, --domain    domains to find subdomains for 
-        -o, --output    Save the results to text file
-        -l, --list      file containing list of domains for subdomain discovery
+- [Amass](https://github.com/OWASP/Amass)
+- [Subfinder](https://github.com/projectdiscovery/subfinder)
+- [Naabu](https://github.com/projectdiscovery/naabu)
+- [Httpx](https://github.com/projectdiscovery/httpx)
+
+
+### Contact info 📱 :
+
+<a href="https://karthithehacker.com/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/3.png"  width="200px" ></a>
+<a href="https://www.youtube.com/channel/UCyiZHuoDz8KP3quElBBAmJQ" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/y.png" width="200px" ></a>
+<a href="https://www.instagram.com/karthithehacker/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/5.png" width="200px" ></a>
+<a href="https://www.linkedin.com/in/cyberspartan/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/7.png" width="200px" ></a>
+<a href="https://api.whatsapp.com/send/?phone=+918270913635&text=Hi" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/8.png" width="200px" ></a>
+
+
