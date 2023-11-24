@@ -95,12 +95,12 @@
 - [Httpx](https://github.com/projectdiscovery/httpx)
 
 
-### Contact info 📱 :
 
-<a href="https://karthithehacker.com/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/3.png"  width="200px" ></a>
-<a href="https://www.youtube.com/channel/UCyiZHuoDz8KP3quElBBAmJQ" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/y.png" width="200px" ></a>
-<a href="https://www.instagram.com/karthithehacker/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/5.png" width="200px" ></a>
-<a href="https://www.linkedin.com/in/cyberspartan/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/7.png" width="200px" ></a>
-<a href="https://api.whatsapp.com/send/?phone=+918270913635&text=Hi" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/8.png" width="200px" ></a>
-
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/karthithehacker" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="karthithehacker" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/karthikeyan--v/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="cyberspartan" height="30" width="40" /></a>
+<a href="https://instagram.com/karthithehacker" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="karthithehacker" height="30" width="40" /></a>
+<a href="https://www.youtube.com/channel/UCyiZHuoDz8KP3quElBBAmJQ" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="karthithehacker" height="30" width="40" /></a>
+</p>
 
