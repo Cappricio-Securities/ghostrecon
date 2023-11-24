@@ -55,7 +55,8 @@
       -  `mkdir ~/recon`
       -  `chmod +x index.js`
       -  `chmod +x setup.sh`
-      -  `./setup.sh` if the setup shows any error install the requirements manually 
+      -  `./setup.sh` if the setup shows any error install the requirements manually
+      -  ` npm i ` If incase setup shows any error run this command
 
 4. Configurations 
    - Telegram Notification
