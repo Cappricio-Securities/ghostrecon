@@ -53,6 +53,7 @@
 
     - Running Setup scripts
       -  `mkdir ~/recon`
+      -  `mkdir ~/recon/ghostrecon/`
       -  `chmod +x index.js`
       -  `chmod +x setup.sh`
       -  `./setup.sh` if the setup shows any error install the requirements manually
