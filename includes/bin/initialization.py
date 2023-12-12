@@ -4,6 +4,10 @@ import sys
 target_name = sys.argv[1]
 savepath = sys.argv[2]
 
+# Creating folder for data
+data_folder = os.path.join(savepath, 'data')
+os.makedirs(data_folder, exist_ok=True)
 
-os.system('mkdir '+savepath+' &>/dev/null') # creating folder for data
-os.system('mkdir '+savepath+target_name) #creating foler with company name
+# Creating folder with company name
+company_folder = os.path.join(data_folder, target_name)
+os.makedirs(company_folder, exist_ok=True)

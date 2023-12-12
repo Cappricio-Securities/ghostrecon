@@ -30,10 +30,22 @@ check_command "pip3" || sudo apt-get install python3-pip
 
 # Check and install specific tools
 check_tool "httpx" || go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+check_tool "katana" || go install github.com/projectdiscovery/katana/cmd/katana@latest
 check_tool "subfinder" || go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 check_tool "amass" || go install -v github.com/owasp-amass/amass/v4/...@master
 check_tool "naabu" || sudo apt install -y libpcap-dev && go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+check_tool "gf"    ||  go install github.com/tomnomnom/gf@latest
+cd ~/
+mkdir .gf
+git clone https://github.com/tomnomnom/gf
+git clone https://github.com/1ndianl33t/Gf-Patterns
 
+cd ~/gf/examples
+cp * ~/.gf/
+cd ~/Gf-Patterns
+cp * ~/.gf/
+
+echo 'source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash' >> ~/.bashrc
 # Check and install pip requests module
 check_command "pip3" && pip3 install requests
 

@@ -6,6 +6,7 @@ from subs import *
 from openports import *
 from send import *
 from bot import *
+from crawling import *
 
 
 file_path = 'config.yaml'
@@ -26,12 +27,14 @@ path = sys.argv[2]
 
 Started(target_name, ChatId)
 
-subdomainenumuration(target_name, path, subs_conf, github_token)
+subdomain_enumuration(target_name, path, subs_conf, github_token)
 sort(target_name, path)
 if subsof == False:
     subsofsubs(target_name, path)
 sorts(target_name, path)
 portscan(target_name, path)
 live(target_name, path)
+webcrawl(target_name, path)
+partenmatch(target_name, path)
 sdata(path,target_name)
 Done(target_name, ChatId)

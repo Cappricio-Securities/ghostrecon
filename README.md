@@ -63,6 +63,7 @@
    - Telegram Notification
      - `nano config.yaml`
      - `chat_ID: your_ChatID` Replace with your telegram chat id
+     - Open your telegram and search for [`@Gh0stR3c0n_bot`](https://web.telegram.org/k/#@Gh0stR3c0n_bot) and click start
      
    - Github Recon
      - `github_token: your_github_token` Replace with your Github Token
@@ -87,6 +88,9 @@
  - SubDomains of SubDomain Recon.
  - Finding Live with unique open ports.
  - Finding open ports. 
+ - WebCrawling.
+ - Pattern Matching.
+ - Telegram Bot 🔔 Notification 🔔 [@Gh0stR3c0n_bot](https://web.telegram.org/k/#@Gh0stR3c0n_bot)
 
 ### Required tools ⚒️ :
 
@@ -94,8 +98,9 @@
 - [Subfinder](https://github.com/projectdiscovery/subfinder)
 - [Naabu](https://github.com/projectdiscovery/naabu)
 - [Httpx](https://github.com/projectdiscovery/httpx)
-
-
+- [Katana](https://github.com/projectdiscovery/katana)
+- [gf](https://github.com/tomnomnom/gf)
+- [gf-Patterns](https://github.com/1ndianl33t/Gf-Patterns)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
