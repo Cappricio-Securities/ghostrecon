@@ -90,6 +90,7 @@
  - Finding open ports. 
  - WebCrawling.
  - Pattern Matching.
+ - GUI Modern Web interface
  - Telegram Bot 🔔 Notification 🔔 [@Gh0stR3c0n_bot](https://web.telegram.org/k/#@Gh0stR3c0n_bot)
 
 ### Required tools ⚒️ :
