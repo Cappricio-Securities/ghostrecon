@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/karthi-the-hacker/ghostrecon/raw/main/screenshots/logo.gif" ><br>
+<img src="https://blogs.cappriciosec.com/uploaders/ghostrecon-tool.png" ><br>
 
 </p>
 
