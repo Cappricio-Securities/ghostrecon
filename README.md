@@ -63,7 +63,7 @@
    - Telegram Notification
      - `nano config.yaml`
      - `chat_ID: your_ChatID` Replace with your telegram chat id
-     - Open your telegram and search for [`@Gh0stR3c0n_bot`](https://web.telegram.org/k/#@Gh0stR3c0n_bot) and click start
+     - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
      
    - Github Recon
      - `github_token: your_github_token` Replace with your Github Token
