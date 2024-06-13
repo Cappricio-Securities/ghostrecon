@@ -91,7 +91,7 @@
  - WebCrawling.
  - Pattern Matching.
  - GUI Modern Web interface
- - Telegram Bot 🔔 Notification 🔔 [@Gh0stR3c0n_bot](https://web.telegram.org/k/#@Gh0stR3c0n_bot)
+ - Telegram Bot 🔔 Notification 🔔 [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot)
 
 ### Required tools ⚒️ :
 
