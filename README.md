@@ -13,7 +13,7 @@
 - NodeJs
 - Python3
 - Go
-- pip3
+- pip3 
 - npm
 
 ### Screen Shots 📸 :
