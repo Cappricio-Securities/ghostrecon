@@ -82,6 +82,22 @@
      - `open http://localhost:8090` Open this url in your browser
      - `open http://localhost:8090/new` Start new recon
 
+## Installation in docker
+
+Simply run the following command
+
+```docker compose up --build -d```
+
+```docker exec -it ghostrecon bash```
+
+```npm install```
+
+```npm start```
+
+```http://localhost:8090```
+
+Simply acccess this uri in your browser
+
 ## Features ⚙️ :
 
  - SubDomain Recon.

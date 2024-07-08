@@ -1,0 +1,17 @@
+version: '3'
+services:
+  node_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ghostrecon
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - docker_root:/root  # Define a named volume for persisting /root
+    ports:
+      - "8090:8090"
+    tty: true
+
+volumes:
+  docker_root:
